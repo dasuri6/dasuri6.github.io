@@ -1,0 +1,123 @@
+/* You can add custom CSS and override boostrap styles in this file.  Remember, bootstrap is just CSS at the end of the day! */
+
+#hero-section {
+  /* This should be an image. */
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("city.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 90vh;
+  color: white;
+  text-align: center;
+  /* Change this values to work for you. */
+  padding: clamp(100px, 20vh, 200px) 0;
+}
+
+#profile-img {
+  /* Change this values to work for you. */
+  margin: clamp(10px, 20vh, 100px) auto;
+
+  /* This should be an image */
+  
+  
+
+  /* Change this values to work for you. */
+  height: clamp(100px, 20vh, 200px);
+
+  /* Change this values to work for you. */
+  width: clamp(100px, 20vh, 200px);
+} 
+
+#profile-img img {
+  border-radius: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:100%;
+  height: auto;
+  border-color: black;
+  position: relative;
+  border: 5px solid;
+}
+
+#hero-section p {
+  color: white;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
+#mission-section h3 {
+  text-align: center;
+}
+#mission-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:100%;
+  height: auto;
+  border-color: black;
+  position: relative;
+  border: 5px solid;
+  width: 382px;
+  height: 512px;
+  
+}
+h3 {
+  text-align: center;
+}
+#skills-section {
+  text-align: center;
+  /*padding: 25px;*/
+  padding: clamp(25px, 20vh, 30px) 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+#skills-section img{
+  height: 200px;
+  width: 200px;
+}
+#mission-section {
+  padding: 100px;
+}
+#certifications-section {
+  padding: 25px;
+  text-align: center;
+}
+#inspiration-section {
+  padding: 25px;
+}
+#contact-section {
+  padding: 25px;
+  text-align: center;
+}
+.navbar {
+  padding: 0;
+  min-height: 45px;
+}
+.one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.carousel-item img {
+height: 900px;
+width: 600px, 80%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+object-fit: cover;
+}
+.carousel-caption {
+  text-shadow: 2px 2px black;
+  background-color:rgba(0,0,0,0.5);
+}
+footer {
+  text-align: center;
+  height: 50px;
+  background-color: white;
+  color: black;
+}
